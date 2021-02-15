@@ -1,0 +1,223 @@
+/* Цвет основного текста #757575 */
+/* Вторичный цвет текста #212121 */
+/* Белый #FFFFFF */
+/* Акцент #2196F3 */
+
+/* Доп цвет для лого #000000 */
+/* Цвет ссылок для адреса  rgba(255, 255, 255, 60%) */
+/* Вторичный цвет фона 2F303A*/
+/* Цвет фона в секции команды F5F4FA*/
+
+
+:root {
+--primary-text-color: #757575;
+--title-text-color: #212121;
+--accent-color: #2196F3;
+--white-color: #ffffff;
+--dark-blue-color: #2F303A;
+--studio-black-color: #000000;
+--transparent-white-color: rgba(255, 255, 255, 60%);
+--team-bcg-color: #f5f4fa;
+}
+
+
+body {
+    color: var(--primary-text-color);
+    
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* - Точки у списка */
+ul {
+    list-style: none;
+}
+
+/* site nav */
+.site-nav .link {
+    color: var(--title-text-color);
+
+    text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+ .site-nav {
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+ }
+
+/* Hero */
+.hero-title {
+    color: var(--white-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+
+
+/* Black section title */
+.section-title {
+    color: var(--title-text-color);
+
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+
+/* Features */
+.feature-title {
+    color: var(--title-text-color);
+
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.feature-list .text {
+    font-weight: 400;
+    line-height: 1.71;
+}
+
+/* Examples с именами команд*/
+.team-list .name {
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.team-list .position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+/* Button */
+.hero .order {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    font-family: inherit;
+    font-weight: inherit;
+}
+.hero .order:hover,
+.hero .order:focus {
+    cursor: pointer;
+}
+
+
+/* Логотипы */
+.logo {
+    color: var(--accent-color);
+
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    
+}
+.first-studio {
+    color: var(--studio-black-color);
+}
+.second-studio {
+    color: var(--white-color);
+}
+
+
+/* Контакты в шапке */
+.contacts .contact-link {
+    color: var(--primary-text-color);
+
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.contacts .contact-link:hover,
+.contacts .contact-link:focus {
+    color: var(--accent-color);
+}
+
+/* Футер */
+
+.address-text {
+    color: var(--white-color);
+}
+.address-link {
+    color: var(--transparent-white-color);
+    text-decoration: none;
+}
+.address-text,
+.address-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+}
+
+/* Фон */
+footer,
+.hero {
+ background-color: var(--dark-blue-color);
+}
+
+.section-team {
+    background-color: var(--team-bcg-color);
+}
+
+
+/* КНОПКИ В ПОРТФОЛИО */
+.radio-buttons .button {
+    color: var(--title-text-color);
+    background-color: var(--team-bcg-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    font-family: inherit;
+    letter-spacing: inherit;
+}
+.radio-buttons .button:hover,
+.radio-buttons .button:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+/* ПРОЭКТЫ В ПОРТФОЛИО */
+.projects h2 {
+    color: var(--title-text-color);
+
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.projects p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+}
