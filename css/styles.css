@@ -70,6 +70,9 @@ ul {
 /* Hero */
 .hero {
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 210px;
+    text-align: center;
 }
 
 
@@ -90,7 +93,7 @@ ul {
 /* Black section title */
 .section-title {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 50px;
     color: var(--title-text-color);
 
     font-size: 36px;
@@ -114,6 +117,12 @@ ul {
     margin-bottom: 0;
     font-weight: 400;
     line-height: 1.71;
+}
+
+.feature-list,
+.section-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /* Examples с именами команд*/
@@ -271,9 +280,12 @@ footer,
     padding-right: 15px;
 }
 
-.section {
-    padding-top: 94px;
+.section.examples {
     padding-bottom: 94px;
-    background-color: yellow;
 }
-
+ 
+.main-navigation,
+.contacts.list {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
