@@ -119,6 +119,7 @@ ul {
 
 /* Button */
 .hero .order {
+    display: inline-block;
     color: var(--white-color);
     background-color: var(--accent-color);
 
@@ -127,6 +128,11 @@ ul {
     letter-spacing: 0.06em;
     font-family: inherit;
     font-weight: inherit;
+
+    border-radius: 4px;
+    padding:  10px 32px;
+    min-width: 200px;
+    border: 1px solid transparent;
 }
 .hero .order:hover,
 .hero .order:focus {
@@ -196,6 +202,7 @@ footer,
 
 /* КНОПКИ В ПОРТФОЛИО */
 .radio-buttons .button {
+    display: inline-block;
     color: var(--title-text-color);
     background-color: var(--team-bcg-color);
 
@@ -204,6 +211,10 @@ footer,
     line-height: 1.62;
     font-family: inherit;
     letter-spacing: inherit;
+
+    border-radius: 4px;
+    padding: 6px 22px;
+    border: 1px solid transparent;
 }
 .radio-buttons .button:hover,
 .radio-buttons .button:focus {
