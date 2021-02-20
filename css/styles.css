@@ -43,6 +43,8 @@ body {
 /* - Точки у списка */
 ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 /* site nav */
@@ -66,13 +68,19 @@ ul {
  }
 
 /* Hero */
+.hero {
+    text-align: center;
+}
+
+
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
     color: var(--white-color);
 
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
@@ -81,6 +89,8 @@ ul {
 
 /* Black section title */
 .section-title {
+    margin-top: 0;
+    margin-bottom: 0;
     color: var(--title-text-color);
 
     font-size: 36px;
@@ -91,6 +101,8 @@ ul {
 
 /* Features */
 .feature-title {
+    margin-top: 0;
+    margin-bottom: 10px;
     color: var(--title-text-color);
 
     line-height: 1.14;
@@ -98,12 +110,16 @@ ul {
 }
 
 .feature-list .text {
+    margin-top: 0;
+    margin-bottom: 0;
     font-weight: 400;
     line-height: 1.71;
 }
 
 /* Examples с именами команд*/
 .team-list .name {
+    margin-top: 0;
+    margin-bottom: 0;
     color: var(--title-text-color);
 
     font-weight: 500;
@@ -112,6 +128,8 @@ ul {
 }
 
 .team-list .position {
+    margin-top: 0;
+    margin-bottom: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
@@ -225,6 +243,8 @@ footer,
 
 /* ПРОЭКТЫ В ПОРТФОЛИО */
 .projects h2 {
+    margin-top: 0;
+    margin-bottom: 0;
     color: var(--title-text-color);
 
     font-size: 18px;
@@ -238,6 +258,8 @@ footer,
 }
 
 .projects p {
+    margin-top: 0;
+    margin-bottom: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
@@ -247,4 +269,14 @@ footer,
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: yellow;
+}
+
+.section.centered{
+text-align: center;
 }
