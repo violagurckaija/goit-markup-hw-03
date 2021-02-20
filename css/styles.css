@@ -8,6 +8,15 @@
 /* Вторичный цвет фона 2F303A*/
 /* Цвет фона в секции команды F5F4FA*/
 
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
 
 :root {
 --primary-text-color: #757575;
@@ -22,6 +31,7 @@
 
 
 body {
+    margin: 0;
     color: var(--primary-text-color);
     
     font-family: Roboto, sans-serif;
@@ -220,4 +230,10 @@ footer,
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
