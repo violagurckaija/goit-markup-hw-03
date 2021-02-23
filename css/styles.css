@@ -41,14 +41,7 @@ body {
 }
 
 /* - Точки у списка */
-.site-nav.list,
-.contacts.list,
-.feature-list,
-.examples-jpg,
-.team-list,
-.address-list,
-.radio-buttons,
-.projects {
+.list {
     list-style: none;
 }
 
