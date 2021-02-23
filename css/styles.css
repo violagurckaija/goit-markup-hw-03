@@ -41,10 +41,15 @@ body {
 }
 
 /* - Точки у списка */
-ul {
+.site-nav.list,
+.contacts.list,
+.feature-list,
+.examples-jpg,
+.team-list,
+.address-list,
+.radio-buttons,
+.projects {
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 /* site nav */
@@ -278,6 +283,7 @@ footer,
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
+    box-sizing: content-box;
 }
 
 .section.examples {
@@ -288,4 +294,14 @@ footer,
 .contacts.list {
     padding-top: 24px;
     padding-bottom: 25px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
 }
