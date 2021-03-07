@@ -47,9 +47,13 @@ body {
 
 /* site nav */
 .site-nav .link {
+    display: block;
     color: var(--title-text-color);
 
     text-decoration: none;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -72,6 +76,7 @@ body {
  .nav-item:last-child {
      margin-right: 0;
  }
+
 
 /* Hero */
 .hero {
