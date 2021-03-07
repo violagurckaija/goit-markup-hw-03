@@ -60,14 +60,21 @@ body {
     color: var(--accent-color);
 }
  .site-nav {
+     display: flex;
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: 0.02em;
  }
+ .nav-item {
+    margin-right: 50px;
+ }
+
+ .nav-item:last-child {
+     margin-right: 0;
+ }
 
 /* Hero */
 .hero {
-    text-align: center;
     padding-top: 200px;
     padding-bottom: 210px;
     text-align: center;
@@ -75,7 +82,6 @@ body {
 
 
 .hero-title {
-    margin-top: 0;
     margin-bottom: 30px;
     color: var(--white-color);
 
@@ -90,7 +96,6 @@ body {
 
 /* Black section title */
 .section-title {
-    margin-top: 0;
     margin-bottom: 50px;
     color: var(--title-text-color);
 
@@ -102,7 +107,6 @@ body {
 
 /* Features */
 .feature-title {
-    margin-top: 0;
     margin-bottom: 10px;
     color: var(--title-text-color);
 
@@ -111,22 +115,17 @@ body {
 }
 
 .feature-list .text {
-    margin-top: 0;
-    margin-bottom: 0;
     font-weight: 400;
     line-height: 1.71;
 }
 
-.feature-list,
-.section-team {
+.section.feature {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
 /* Examples с именами команд*/
 .team-list .name {
-    margin-top: 0;
-    margin-bottom: 0;
     color: var(--title-text-color);
 
     font-weight: 500;
@@ -135,8 +134,6 @@ body {
 }
 
 .team-list .position {
-    margin-top: 0;
-    margin-bottom: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
@@ -250,8 +247,6 @@ footer,
 
 /* ПРОЭКТЫ В ПОРТФОЛИО */
 .projects h2 {
-    margin-top: 0;
-    margin-bottom: 0;
     color: var(--title-text-color);
 
     font-size: 18px;
@@ -265,8 +260,6 @@ footer,
 }
 
 .projects p {
-    margin-top: 0;
-    margin-bottom: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
@@ -289,6 +282,7 @@ footer,
     padding-bottom: 25px;
 }
 
+/* базовый сброс */
 h1,
 h2,
 h3,
@@ -298,3 +292,15 @@ h6,
 p {
     margin: 0;
 }
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+.
