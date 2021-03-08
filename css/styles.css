@@ -186,6 +186,15 @@ body {
 
 
 /* Контакты в шапке */
+
+.contacts.list {
+    display: flex;
+}
+
+.contacts .item + .item {
+margin-left: 50px;
+}
+
 .contacts .contact-link {
     color: var(--primary-text-color);
 
