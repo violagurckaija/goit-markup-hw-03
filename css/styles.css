@@ -45,6 +45,12 @@ body {
     list-style: none;
 }
 
+.main-navigation {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
 /* site nav */
 .site-nav .link {
     display: block;
@@ -290,11 +296,6 @@ footer,
     padding-bottom: 94px;
 }
  
-.main-navigation,
-.contacts.list {
-    padding-top: 24px;
-    padding-bottom: 25px;
-}
 
 /* базовый сброс */
 h1,
